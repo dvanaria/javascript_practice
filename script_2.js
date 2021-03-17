@@ -1,8 +1,12 @@
 // Functions are declared/defined using the 'function' keyword.
-// This is very different than C, which just states the return type and function name.
+// This is very different than C, which just states the return type and 
+// function name.
 // A function can return values and the syntax is the same as in C.
-// Upon hitting a 'return' keyword, the function stops and returns that value.
+// Upon hitting a 'return' keyword, the function stops and returns that 
+// value.
 // You don't have to declare a return type in the function definition.
+// Notice also there's no main() function
+
 function longest_string(string_array) {
 
     var longest_length = 0;
@@ -27,5 +31,8 @@ const s4 = "Apple";
 const s5 = "I love JavaScript";
 const s6 = "Here is another 1";
 const s7 = "Dog";
-var my_string_array = [s1, s2, s3, s4, s5, s6, s7];     // syntax for array creation
+
+// syntax for array creation
+var my_string_array = [s1, s2, s3, s4, s5, s6, s7];     
+
 longest_string(my_string_array);

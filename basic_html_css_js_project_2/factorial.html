@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Demo Page</title>
+        <link rel="stylesheet" type="text/css" href="factorial.css">
+    </head>
+    <body>
+        
+        <script src="factorial.js"></script>
+
+        <h1>JavaScript Demo Page</h1>
+        <h2>Factorial Table</h2>
+
+        <form id="input_form">
+            Enter an upper bound for the factorial table:<br>
+            <input type="text" id="text_input_field">
+        </form>
+
+        <br>
+        <button id="run_button" onclick="factTable(input_form)">RUN</button>
+
+        <br><br>
+        The factorial table:<br>
+        <p id="text_output_field"></p>
+        <br>
+
+    </body>
+</html>

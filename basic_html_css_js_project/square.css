@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+#run_button {
+    background-color: lightgreen;
+    color: white;
+}
+#text_output_field {
+    color: red;
+    font-size: large;
+}
+
